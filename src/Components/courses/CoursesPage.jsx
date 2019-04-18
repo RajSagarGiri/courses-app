@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {bindActionCreators} from 'redux';
 
 class CoursesPage extends React.Component{
-    state = { course : { title : '' }};
+    state = {course: { title : '' }};
 
     handleChange = event => {
         const course = {...this.state.course, title : event.target.value};
@@ -15,6 +15,7 @@ class CoursesPage extends React.Component{
     handleSubmit = event => { 
         event.preventDefault();
         this.props.actions.createCourse(this.state.course);
+        this.setState({course : { title : '' }});
     };
 
     render(){
@@ -24,7 +25,7 @@ class CoursesPage extends React.Component{
                 <h3>Add Course</h3>
                 <input type='text' 
                     onChange={this.handleChange} 
-                    value={this.state.course.title} 
+                    value={this.state.course.title}
                 />
                 <input type='submit' value='Save' />
                 {this.props.courses.map(c => (
