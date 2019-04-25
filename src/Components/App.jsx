@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch, Redirect} from 'react-router-dom';
 import HomePage from './home/HomePage';
 import AboutPage from './about/AboutPage';
 import Header from './common/Header';
@@ -14,6 +14,7 @@ const  App =  () => (
         <Header /> 
         <Switch>
             <Route exact path='/' component={HomePage} />
+            <Redirect exact from = '/courses-app' to = "/" />
             <Route path='/about' component={AboutPage} />
             <Route path='/courses' component={CoursesPage} />
             <Route path='/course/:slug' component={ManageCoursePage} />
