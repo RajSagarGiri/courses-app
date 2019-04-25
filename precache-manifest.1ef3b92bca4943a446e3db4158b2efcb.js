@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/courses-app/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
-    "revision": "e46a47d3d23d56ae2ad5",
+    "revision": "c76301c5da9b7b2e1292",
     "url": "/courses-app/static/css/main.cd3014a9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/courses-app/static/js/2.2d7749ba.chunk.js"
   },
   {
-    "revision": "e46a47d3d23d56ae2ad5",
-    "url": "/courses-app/static/js/main.7a663306.chunk.js"
+    "revision": "c76301c5da9b7b2e1292",
+    "url": "/courses-app/static/js/main.35759d84.chunk.js"
   },
   {
     "revision": "448c34a56d699c29117adc64c43affeb",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/courses-app/static/css/2.6b7a0635.chunk.css"
   },
   {
-    "revision": "5c165200f1934bc510160328d32ab8ef",
+    "revision": "dd4dcd0305656428b5b4e34e897465a2",
     "url": "/courses-app/index.html"
   }
 ];
