@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "f4769f9bdb7466be65088239c12046d1",
-    "url": "/courses-app/static/media/glyphicons-halflings-regular.f4769f9b.eot"
+    "revision": "448c34a56d699c29117adc64c43affeb",
+    "url": "/courses-app/static/media/glyphicons-halflings-regular.448c34a5.woff2"
   },
   {
-    "revision": "c76301c5da9b7b2e1292",
+    "revision": "ea45ba5017a48d2dbdcb",
     "url": "/courses-app/static/css/main.cd3014a9.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/courses-app/static/js/2.2d7749ba.chunk.js"
   },
   {
-    "revision": "c76301c5da9b7b2e1292",
-    "url": "/courses-app/static/js/main.35759d84.chunk.js"
+    "revision": "ea45ba5017a48d2dbdcb",
+    "url": "/courses-app/static/js/main.07bc3b52.chunk.js"
   },
   {
-    "revision": "448c34a56d699c29117adc64c43affeb",
-    "url": "/courses-app/static/media/glyphicons-halflings-regular.448c34a5.woff2"
+    "revision": "f4769f9bdb7466be65088239c12046d1",
+    "url": "/courses-app/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
     "revision": "fa2772327f55d8198301fdb8bcfc8158",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/courses-app/static/css/2.6b7a0635.chunk.css"
   },
   {
-    "revision": "dd4dcd0305656428b5b4e34e897465a2",
+    "revision": "65abeadc403d930bff1b9fd36c827161",
     "url": "/courses-app/index.html"
   }
 ];
